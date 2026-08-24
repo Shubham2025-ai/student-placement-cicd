@@ -14,7 +14,7 @@ from sklearn.metrics import accuracy_score
 
 from src.train import MODEL_PATH, TEST_DATA_PATH
 
-ACCURACY_THRESHOLD = 0.80
+ACCURACY_THRESHOLD = 0.95
 
 
 def evaluate() -> float:
